@@ -25,6 +25,7 @@ public class Email {
 			System.err.println("No email found");
 		} else {
 			System.out.print("Match found: " + this.match + "\n");
+			this.match = null;
 		}
 	}
 }
