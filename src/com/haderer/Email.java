@@ -14,7 +14,7 @@ public class Email {
 	public void findEmailId(String emailId) {
 		for (String str : emails) {
 			if (str.contains(emailId)) {
-				this.match = str;
+				this.match = str.toLowerCase();
 				break;
 			}
 		}
